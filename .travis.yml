@@ -1,0 +1,10 @@
+./configure && make && make test
+
+install: make get-deps
+
+language: c
+
+script: make dep && make  && make test
+
+compiler: gcc
+
