@@ -1,7 +1,7 @@
 
 language: c
 
-script: ./configure &&  make dep && make  && make test
+script: make dep && make  && make test
 
 compiler: -gcc
 
